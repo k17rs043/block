@@ -1,10 +1,10 @@
 (function() {
     
-var SETTINGS_GRAVITY = 0.07,
-    SETTINGS_FPS = 30,
+var SETTINGS_GRAVITY = 0.05,
+    SETTINGS_FPS = 90,
     SETTINGS_BALL_NUM = 1,
-    SETTINGS_BOUND_X = 0.13,
-    SETTINGS_BOUND_Y = 1.04,
+    SETTINGS_BOUND_X = 0.11,
+    SETTINGS_BOUND_Y = 1.02,
     SETTINGS_ACCELEROMETER_RELOAD_FREQ = 100,
     SETTINGS_PADDLE_ACCEL = 2.8,
     SETTINGS_POINT = 1000,
@@ -42,15 +42,15 @@ var BB = {
     // Create blocks map
     setMap: function() {
         var blockMap = [
-            [null,      'red',       'silver',       'red',       'silver',       'red',     'silver',       'red',       'silver',       'red'],
-            [null,      'silver',       'red',       'silver',       'red',      'silver',      'red',     'silver',      'red',       'silver'],
-            [null,      'red',       'silver',       'red',       'silver',       'red',     'silver',       'red',       'silver',       'red'],
-            [null,      'silver',       'red',       'silver',       'red',      'silver',      'red',     'silver',      'red',       'silver'],
-            [null,      'silver',       'silver',       'silver',      'silver',       'gold',       'silver',   'silver',   'silver',       'silver'],        
-            [null,      'silver',       'blue',      'silver',       'blue',       'silver',      'blue',       'silver',   'blue',   'silver'],
-            [null,      'blue',       'silver',       'blue',      'silver',       'blue',       'silver',   'blue',   'silver',       'blue'],    
-            [null,      'silver',       'blue',      'silver',       'blue',       'silver',      'blue',       'silver',   'blue',   'silver'],
-            [null,      'blue',       'silver',       'blue',      'silver',       'blue',       'silver',   'blue',   'silver',       'blue']   
+            [null,      'red',       'silver',       'red',       'silver',       'red',     'silver',       'red',       'silver',       'red',   'silver'],
+            [null,      'silver',       'red',       'silver',       'red',      'silver',      'red',     'silver',      'red',       'silver',       'red'],
+            [null,      'red',       'silver',       'red',       'silver',       'red',     'silver',       'red',       'silver',       'red',   'silver'],
+            [null,      'silver',       'red',       'silver',       'red',      'silver',      'red',     'silver',      'red',       'silver',       'red'],
+            [null,      'gold',       'silver',       'gold',      'silver',       'gold',       'silver',   'gold',   'silver',       'gold',   'silver'],        
+            [null,      'silver',       'blue',      'silver',       'blue',       'silver',      'blue',       'silver',   'blue',   'silver',       'blue'],
+            [null,      'blue',       'silver',       'blue',      'silver',       'blue',       'silver',   'blue',   'silver',       'blue',   'silver'],    
+            [null,      'silver',       'blue',      'silver',       'blue',       'silver',      'blue',       'silver',   'blue',   'silver',       'blue'],
+            [null,      'blue',       'silver',       'blue',      'silver',       'blue',       'silver',   'blue',   'silver',       'blue',   'silver']   
             
         ];
         
